@@ -1,0 +1,207 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    display: flex;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing:border-box;
+}
+/*===================Shadow==================*/
+.main{
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    position: relative;
+    z-index: 1;
+    display: block;
+    background: #fff;
+    min-width: 35vw;
+    margin: 0px 20px;
+    padding: 25px 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.45);
+    border: 1.8px solid #202124;
+    border-radius: 0px;
+}
+.input-box{
+    position: relative;
+    margin-top: 5.8vh;
+}
+.input{
+    padding: 13px 15px;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 35px;
+    width: 100%;
+    border-radius: 3px;
+    color: #202124;
+    outline: none;
+	border: 1px solid #202124;
+}
+i{
+	border: 1px solid #202124;
+	border-left: 0;
+	margin-left: -5px;
+	height: 35px;
+	width: 12%;
+	box-sizing: border-box;
+	border-radius: 3px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	padding-top: 8.245px;
+	padding-right: 4px;
+	margin-right: 0;
+}
+.password{
+	width: 88%;
+	border-right:0px;
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+
+.input-label{
+    position: absolute;
+    color: #202124;
+    background-color: #fff;
+    font-size: 12px;
+    overflow: hidden;
+    left: 8px;
+    top: -11px;
+    padding: 0 8px;
+}
+.input:hover + .input-label{
+    outline: none;
+    color: #1a73e8;
+}
+.input:hover{
+    outline: none;
+    border: 1px solid #1a73e8; 
+}
+p{
+    font-size: 12px;
+    margin-top: 2vh;
+    text-align: left;
+}
+.btn{
+    margin-top: -2.4vh;
+    height: 6vh;
+    float: right;
+}
+a{
+    color: #202124;
+    float: left;
+    font-size: 13px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #FF4500;
+}
+/*==============Sign-up Profile===================*/
+img{
+	margin-top: -15px;
+    display: block;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.figure{
+    float: right;
+}
+.figure-caption{
+    color: #202124;
+    font-size: 12px;
+}
+.figure #profileDisplay:hover{
+    filter: drop-shadow(1px 1px 8px #FF6347);
+    
+}
+.btn{
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 0px;
+}
+.btn:hover{
+    background-color: #ff0000 !important;
+    border: none;
+    border-radius: none;
+}
+
+/*==================Create Acc - Sign-in page========================*/
+.create-acc{
+    color: #202124;
+    border: none;
+    float: left;
+    font-size: 13px;
+    padding-left: 0px;
+    padding-top: 4.5vh;
+    background: none;
+    outline: none;
+}
+/*===========Error Message======================*/
+.error{
+    color: #ff0000;
+    font-size: 13px;
+    float: left;
+    margin-top: -38px;
+	margin-bottom: 22px;
+}
+/*===================Success Box=================*/
+
+.success-box{
+    height: 100%;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    text-align: center;
+}
+.success-content{
+    margin: 10px;
+    background: transparent;
+    box-shadow:inset 0 0 6px 0 #fff,0 0 20px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.45);
+    border-radius: 0px;
+    border: 1px solid #fff;
+    position: relative;
+    padding: 12px;
+    width: 320px;
+    height: 220px;
+}
+.success-content h4{
+    font-size: 1.3rem; 
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+.ok{
+    margin: 10px 110px;
+    padding: 8px 25px;
+    color: #fff;
+    background-color: #0070ff; 
+    border-radius: 0px;
+    float: right;
+}
+.ok:hover{
+    color: #fff;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+}
+
+
+/*==============================================*/
