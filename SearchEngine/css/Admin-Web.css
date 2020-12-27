@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    display:block;
+    min-height: 100vh;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    position:fixed;
+    font-weight: 400;
+    font-size: 16px;
+    width: 92vw;
+    height: auto;
+    left: 4%;
+    top: 11%;
+    box-shadow:inset 0 0 5px 0 rgba(74,17,160,1);
+    background: #fff;
+    padding: 20px;
+    border-radius: 0px;
+    
+}   
+table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-size: 1em;
+	text-align: center;
+}    
+table thead{
+	font-weight: 550;
+    padding: 5px 6px;
+	overflow-y: auto;
+	background-color: #1E06C3;
+	color: #fff;
+}
+tr, td{
+    padding: 5px 5px;
+	border: 1px solid #1E06C3;
+}
+.button{
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+.next{
+    padding: 7px 16px;
+    border: 0;
+    color: #000;
+    background-color: #e0e0e0;
+}
+.next:hover{
+	transition: .7s;
+    border-radius: 0px;
+    outline: 0;
+	color: #fff;
+    text-decoration: none;
+    background-color: #1a73e8;
+}
+.acc-rej{
+	padding: 6px 16px;
+    border: 0;
+    margin: -3px;
+    color: #fff;
+	outline: 0;
+	border-radius: 0px;
+	text-decoration: none;
+}
+.reject{
+    background-color: #ff2020;
+}
